@@ -1236,7 +1236,24 @@ ul {
     font-size: 40px;
     opacity: 0.2;
 }
+@media (max-width: 767px)  {
+    .friends-page .friend a{
 
+    display: block;
+    margin-bottom: 10px;
+
+    }
+    .friends-page .friend div:last-child {
+            display: block;
+            width: fit-content;
+            margin: 5px auto;
+    }
+
+    .friends-page .friend .icons{
+        display: block;
+        text-align: center;
+    }
+}
 /* End Friends Page */
 /* Start Files Page */
 .files-page {
