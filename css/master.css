@@ -169,6 +169,7 @@ ul {
     width: 32px;
     height: 32px;
     margin-left: 15px;
+    border-radius: 50%;
 }
 
 .page h1 {
@@ -822,7 +823,7 @@ ul {
     height: 32px;
     border-radius: 16px;
     position: relative;
-    transition: 0.3s;
+    transition: .5s;
     cursor: pointer;
 }
 
@@ -841,7 +842,7 @@ ul {
     justify-content: center;
     align-items: center;
     color: #aaa;
-    transition: 0.3s;
+    transition: .5s;
 }
 
 .toggle-checkbox:checked+.toggle-switch {
@@ -852,6 +853,8 @@ ul {
     content: "\f00c";
     left: 50px;
     color: var(--blue-color);
+    transform: rotate(360deg);
+
 }
 
 .settings-page :disabled {
