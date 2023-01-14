@@ -825,6 +825,8 @@ ul {
     position: relative;
     transition: .5s;
     cursor: pointer;
+    
+    margin-left: 10px;
 }
 
 .toggle-switch::before {
